@@ -32,7 +32,7 @@ export default {
       if (hours > 0) parts.push(`${hours} h`)
       if (minutes > 0) parts.push(`${minutes} m`)
       if (seconds > 0) parts.push(`${seconds} s`)
-      return parts.length ? parts.join(', ') : '¡Ya puedes usarlo! ٩(◕‿◕｡)۶'
+      return parts.length ? parts.join(', ') : 'ahora'
     }
     const coins = user.coins || 0
     const name = db.users[m.sender]?.name || m.sender.split('@')[0]
