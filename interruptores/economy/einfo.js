@@ -6,7 +6,7 @@ export default {
     const chatId = m.chat
     const botId = client.user.id.split(':')[0] + "@s.whatsapp.net"
     const chatData = db.chats[chatId]
-    if (chatData.adminonly || !chatData.economy) return m.reply(`💙 Los comandos de *Economía* están desactivados en este grupo.\n\nUn *administrador* puede activarlos con el comando:\n» *${usedPrefix}economy on*`)
+    if (chatData.adminonly || !chatData.economy) return m.reply(`🌸 ¡Ehhh! Los comandos de *Economía* están desactivados en este grupo... ¡qué pena!\n\nUn *administrador* puede activarlos con el comando, ¡ánimo!\n» *${usedPrefix}economy on*`)
     const user = chatData.users[m.sender]
     const now = Date.now()
     const oneDay = 24 * 60 * 60 * 1000
@@ -32,26 +32,23 @@ export default {
       if (hours > 0) parts.push(`${hours} h`)
       if (minutes > 0) parts.push(`${minutes} m`)
       if (seconds > 0) parts.push(`${seconds} s`)
-      return parts.length ? parts.join(', ') : 'Ahora.'
+      return parts.length ? parts.join(', ') : '¡Ya puedes usarlo! ٩(◕‿◕｡)۶'
     }
     const coins = user.coins || 0
     const name = db.users[m.sender]?.name || m.sender.split('@')[0]
-    const mensaje = `💙🎵 *Usuario* 🎵💙
-🌱 \`<${name}>\`
-
-💙 Work » *${formatTime(cooldowns.work)}*
-🌱 Slut » *${formatTime(cooldowns.slut)}*
-💙 Crime » *${formatTime(cooldowns.crime)}*
-🌱 Mine » *${formatTime(cooldowns.mine)}*
-💙 Ritual » *${formatTime(cooldowns.ritual)}*
-🌱 Steal » *${formatTime(cooldowns.steal)}*
-💙 Daily » *${formatTime(cooldowns.daily)}*
-🌱 Weekly » *${formatTime(cooldowns.weekly)}*
-💙 Monthly » *${formatTime(cooldowns.monthly)}*
-
-🌱 Cebollines totales  ${coins.toLocaleString()} ${global.db.data.settings[botId].currency}
-
-✨ *HATSUNE MIKU BOT*`
+    const mensaje = `🌸✨ *¡Info de tu economía!* ✨🌸
+💖 \`<${name}>\`
+🌸 Work » *${formatTime(cooldowns.work)}*
+💖 Slut » *${formatTime(cooldowns.slut)}*
+🌸 Crime » *${formatTime(cooldowns.crime)}*
+💖 Mine » *${formatTime(cooldowns.mine)}*
+🌸 Ritual » *${formatTime(cooldowns.ritual)}*
+💖 Steal » *${formatTime(cooldowns.steal)}*
+🌸 Daily » *${formatTime(cooldowns.daily)}*
+💖 Weekly » *${formatTime(cooldowns.weekly)}*
+🌸 Monthly » *${formatTime(cooldowns.monthly)}*
+💖 Coins totales → ${coins.toLocaleString()} ${global.db.data.settings[botId].currency}
+✨ *¡Sigue así, lo estás haciendo genial! (≧◡≦)*`
     await client.sendMessage(chatId, { text: mensaje }, { quoted: m })
   }
 }
