@@ -6,11 +6,11 @@ export default {
     const user = chat.users[m.sender]
     const botId = client.user.id.split(':')[0] + '@s.whatsapp.net'
     const currency = global.db.data.settings[botId].currency
-    if (chat.adminonly || !chat.economy) return m.reply(`💙 Los comandos de *Economía* están desactivados en este grupo.\n\nUn *administrador* puede activarlos con el comando:\n» *${usedPrefix}economy on*`)
+    if (chat.adminonly || !chat.economy) return m.reply(`💖 Los comandos de *Economía* están desactivados en este grupo.\n\nUn *administrador* puede activarlos con el comando:\n» *${usedPrefix}economy on*`)
     user.lastfish ||= 0
     const remainingTime = user.lastfish - Date.now()
     if (remainingTime > 0) {
-      return m.reply(`💙 Debes esperar *${msToTime(remainingTime)}* antes de volver a pescar.`)
+      return m.reply(`💖 Debes esperar *${msToTime(remainingTime)}* antes de volver a pescar.`)
     }
     const rand = Math.random()
     let cantidad
@@ -71,7 +71,7 @@ export default {
       message = pickRandom(neutralMessages)
     }
     user.lastfish = Date.now() + 8 * 60 * 1000
-    await client.sendMessage(m.chat, { text: `💙 ${message}` }, { quoted: m })
+    await client.sendMessage(m.chat, { text: `💖 ${message}` }, { quoted: m })
   },
 }
 
