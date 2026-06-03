@@ -120,7 +120,7 @@ https://files.catbox.moe/b6z9ml.apk
 
 ### 👑 CHASKI
 
-© MIKU NAKANO 4
+© MIKU NAKANO 
 
 </div>
 
