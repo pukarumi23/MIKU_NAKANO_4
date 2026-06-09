@@ -11,7 +11,7 @@ global.dev = "© 🄿🄾🅆🄴🅁🄴🄳 CHASKI"
 global.links = {
 api: 'https://rest.alyabotpe.xyz',
 channel: "https://whatsapp.com/channel/0029VbC04aQ6mYPDkbiMte0u",
-github: "https://github.com/pukarumi23/kitagawa",
+github: "https://github.com/pukarumi23/MIKU_NAKANO_4",
 gmail: "glitchgarden449@gmail.com"
 }
 
@@ -21,13 +21,13 @@ global.miku = {
     forwardedNewsletterMessageInfo: { 
       newsletterJid: "120363425300401364@newsletter", 
       serverMessageId: 100, 
-      newsletterName: "🧡KITAGAWA🧡"
+      newsletterName: "🌸༺ Miku Nakano ༻🌸"
     },
     externalAdReply: {
       mediaUrl: null,
       description: '🌱Lo mejor🌿',
       previewType: "PHOTO",
-      thumbnailUrl: global.banner || 'https://i.pinimg.com/736x/72/57/af/7257af51d06b3d917d89ff0a40f880dc.jpg',
+      thumbnailUrl: global.banner || 'https://i.pinimg.com/control1/1200x/c2/b4/9b/c2b49b57555fd5e9d5df0885c8f7d2d9.jpg',
       sourceUrl: global.channel || 'https://whatsapp.com/channel/0029VbC04aQ6mYPDkbiMte0u',
       mediaType: 1,
       renderLargerThumbnail: false
@@ -36,9 +36,9 @@ global.miku = {
 }
 
 global.mess = {
-socket: '🏵️ Este comando solo puede ser ejecutado por un Socket.',
-admin: '🏵️ Este comando solo puede ser ejecutado por los Administradores del Grupo.',
-botAdmin: '🏵️ Este comando solo puede ser ejecutado si el Socket es Administrador del Grupo.'
+socket: '🎧 Este comando solo puede ser ejecutado por un Socket.',
+admin: '🎧 Este comando solo puede ser ejecutado por los Administradores del Grupo.',
+botAdmin: '🎧 Este comando solo puede ser ejecutado si el Socket es Administrador del Grupo.'
 }
 
 global.APIs = {
