@@ -15,7 +15,7 @@
 ![](https://img.shields.io/badge/AUTOR-CHASKI-%23bf00ff?style=flat-square&labelColor=0d0d0d&logo=github&logoColor=white)
 [![GitHub Stars](https://img.shields.io/github/stars/pukarumi23/MIKU_NAKANO_4?style=flat-square&label=STARS&labelColor=0d0d0d&color=00a2ff&logo=github&logoColor=white)](https://github.com/pukarumi23/MIKU_NAKANO_4/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/pukarumi23/MIKU_NAKANO_4?style=flat-square&labelColor=0d0d0d&color=00c3ff&logo=github&logoColor=white)](https://github.com/pukarumi23/MIKU_NAKANO_4/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/pukarumi23/MIKU_NAKANO_4?style=flat-square&labelColor=0d0d0d&color=b300ff&logo=github&logoColor=white)](https://github.com/pukarumi23/MIKU_NAKANO_4/issues)
+
 </div>
 
 ---
