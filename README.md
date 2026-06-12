@@ -1,98 +1,138 @@
 <div align="center">
 
-# ✦𝐌𝐈𝐊𝐔 𝐍𝐀𝐊𝐀𝐍𝐎✧
+<img src="https://files.catbox.moe/9rd3vr.png" width="300"/>
 
-![Miku Nakano](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB9_s9pN_-GILbxYqgqiI2eJ2YalZdY2Jh2w&s)
+<br/>
 
-[![Bot Status](https://img.shields.io/badge/-SIMPLE--WHATSAPP--BOT-green?colorA=%21ff0000\&colorB=%21017e40\&style=for-the-badge)](https://github.com/pukarumi23/MIKU_NAKANO_4)
-[![Author](https://img.shields.io/badge/Author-CHASKI-turquoise.svg?style=for-the-badge\&logo=github)](https://github.com/pukarumi23)
-[![Version](https://img.shields.io/badge/Version-4.0-blue?style=for-the-badge)](https://github.com/pukarumi23/MIKU_NAKANO_4)
-[![Stars](https://img.shields.io/github/stars/pukarumi23/MIKU_NAKANO_4?style=for-the-badge)](https://github.com/pukarumi23/MIKU_NAKANO_4/stargazers)
+# ⚡★ MIKU NAKANO BOT ★⚡
 
+> *Sistema de automatización para WhatsApp — impulsado por IA*
+
+<br/>
+
+![](https://img.shields.io/badge/VERSI%C3%93N-2.0.0-%23ff007f?style=flat-square&labelColor=0d0d0d)
+![](https://img.shields.io/badge/PLATAFORMA-WHATSAPP-%2300e5ff?style=flat-square&labelColor=0d0d0d)
+![](https://img.shields.io/badge/AUTOR-CHASKI-%23bf00ff?style=flat-square&labelColor=0d0d0d&logo=github&logoColor=white)
+[![GitHub Stars](https://img.shields.io/github/stars/pukarumi23/MIKU_NAKANO_4?style=flat-square&label=STARS&labelColor=0d0d0d&color=00a2ff&logo=github&logoColor=white)](https://github.com/pukarumi23/MIKU_NAKANO_4/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/pukarumi23/MIKU_NAKANO_4?style=flat-square&labelColor=0d0d0d&color=00c3ff&logo=github&logoColor=white)](https://github.com/pukarumi23/MIKU_NAKANO_4/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/pukarumi23/MIKU_NAKANO_4?style=flat-square&labelColor=0d0d0d&color=b300ff&logo=github&logoColor=white)](https://github.com/pukarumi23/MIKU_NAKANO_4/issues)
 </div>
+
+---
 
 <div align="center">
 
-### ⚠️ AVISO IMPORTANTE ⚠️
+### 〔 ACERCA DEL SISTEMA 〕
 
-**SIN COLABORACIÓN CON NINGÚN SERVICIO DE HOSTING**
+</div>
+
+**Miku Nakano Bot** es una herramienta de automatización rica en funciones que trae el encanto de Miku una de las quintillizas a tu WhatsApp. Construido sobre el núcleo de Baileys, opera en tiempo real con módulos de IA, protección de grupos y entretenimiento.
+
+Desarrollo activo — nuevas funciones desplegadas continuamente.
+
+---
+
+<div align="center">
+
+### 〔 MÓDULOS ACTIVOS 〕
+
+</div>
+
+```yaml
+✦ Interacción Voz & Texto      →  Respuestas multimedia en tiempo real
+✦ Gestión de Grupos            →  Admin, permisos y configuración
+✦ Protección Anti-Spam         →  Anti-links, anti-flood, anti-delete
+✦ Bienvenidas Personalizadas   →  Mensajes dinámicos con imagen
+✦ IA Conversacional            →  SimSimi + módulo propio
+✦ Motor de Stickers            →  Desde imágenes / videos / GIFs / URLs
+✦ RPG & Entretenimiento        →  Juegos, minijuegos, ranking
+✦ Descargas de YouTube         →  Música y video en alta calidad
+✦ Módulos Secretos             →  Próximamente...
+```
+
+---
+
+<div align="center">
+
+### 〔 HOSTING RECOMENDADO 〕
+
+<br/>
+
+<img src="https://files.catbox.moe/jp01uz.jpeg" width="480" style="border-radius:8px"/>
+
+<br/><br/>
+
+**¿Quieres tu bot corriendo 24/7 sin interrupciones?**
+
+Planes optimizados para bots de WhatsApp · Soporte activo · Uptime garantizado
+
+<br/>
+
+[![AKIRAX HOST](https://img.shields.io/badge/%F0%9F%8C%90_AKIRAX_HOST-Visitar_Ahora-%23ff007f?style=for-the-badge&labelColor=000000)](https://home.akirax.net)
+
+`home.akirax.net`
 
 </div>
 
 ---
 
-## ✨ Acerca del Bot
-
-**MIKU NAKANO 4** es un bot de WhatsApp multifunción desarrollado en Node.js con herramientas de administración, entretenimiento, inteligencia artificial, descargas multimedia y mucho más.
-
 <div align="center">
-  <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" width="70">
+
+### 〔 INSTALACIÓN EN TERMUX 〕
+
 </div>
 
-## ✅ Características
+**1 —** Actualiza los paquetes base
 
-| Estado | Característica                    |
-| :----: | :-------------------------------- |
-|    ✅   | Interacción por Voz y Texto       |
-|    ✅   | Gestión y Configuración de Grupos |
-|    ✅   | Anti-Eliminación                  |
-|    ✅   | Anti-Enlaces                      |
-|    ✅   | Anti-Spam                         |
-|    ✅   | Bienvenidas Personalizadas        |
-|    ✅   | Chat IA                           |
-|    ✅   | SimSimi                           |
-|    ✅   | Stickers                          |
-|    ✅   | Jadibot                           |
-|    ✅   | Juegos RPG                        |
-|    ✅   | Descargas YouTube                 |
-|   🔜   | Nuevas Funciones Próximamente     |
+```sh
+pkg update && pkg upgrade
+```
 
----
+**2 —** Instala Git y Node.js
 
-<div align="center">
-  <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" width="70">
-</div>
+```sh
+pkg install git nodejs
+```
 
-## 📱 Soporte
+**3 —** Clona el repositorio
 
-[![WhatsApp](https://img.shields.io/badge/Soporte_WhatsApp-25D366?style=for-the-badge\&logo=whatsapp\&logoColor=white)](https://wa.me/51988514570)
-
----
-
-<div align="center">
-  <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" width="120">
-</div>
-
-## 👥 Comunidad
-
-[![Grupo WhatsApp](https://img.shields.io/badge/Grupo_Oficial-25D366?style=for-the-badge\&logo=whatsapp\&logoColor=white)](https://chat.whatsapp.com/ElP65wJ4eVCKg1QIqw8lyg)
-
----
-
-# 📲 Instalación en Termux
-
-```bash
-pkg update -y && pkg upgrade -y
-pkg install git nodejs ffmpeg imagemagick -y
+```sh
 git clone https://github.com/pukarumi23/MIKU_NAKANO_4.git
+```
+
+**4 —** Entra al directorio
+
+```sh
 cd MIKU_NAKANO_4
+```
+
+**5 —** Instala las dependencias
+
+```sh
 npm install
+```
+
+**6 —** Inicia el bot
+
+```sh
 npm start
 ```
 
-### 📥 Termux Recomendado
-
-```text
-https://files.catbox.moe/b6z9ml.apk
-```
+> ⚡ **Termux recomendado →** [Descargar APK](https://files.catbox.moe/b6z9ml.apk)  
+> ⚡ Al iniciar, se generará un código de vinculación para WhatsApp Web.
 
 ---
 
 <div align="center">
 
-## 📊 Estadísticas del Repositorio
+### 〔 SOPORTE & COMUNIDAD 〕
 
-![GitHub Card](https://github-readme-stats.vercel.app/api/pin/?username=pukarumi23\&repo=MIKU_NAKANO_4\&theme=radical)
+¿Tienes dudas o encontraste un problema? Contáctanos directamente.
+
+<br/>
+
+[![SOPORTE](https://img.shields.io/badge/%F0%9F%92%AC_Soporte_Directo-WhatsApp-25D366?style=for-the-badge&labelColor=000000)](https://wa.me/51939508653)
+[![COMUNIDAD](https://img.shields.io/badge/%F0%9F%91%A5_Grupo_Comunidad-%C3%9Anete-25D366?style=for-the-badge&labelColor=000000)](https://chat.whatsapp.com/FQ78boTUpJ7Ge3oEtn8pRE)
 
 </div>
 
@@ -100,27 +140,13 @@ https://files.catbox.moe/b6z9ml.apk
 
 <div align="center">
 
-## 📈 Estadísticas del Desarrollador
+### 〔 ESTADÍSTICAS 〕
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pukarumi23\&show_icons=true\&theme=radical\&count_private=true)
+[![Stats](https://github-readme-stats.vercel.app/api?username=pukarumi23&show_icons=true&count_private=true&theme=radical&bg_color=0d0d0d&border_color=ff007f&title_color=00e5ff&icon_color=ff007f&text_color=ffffff)](https://github.com/pukarumi23)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pukarumi23\&layout=compact\&theme=radical)
+[![GitHub Streak](https://streak-stats.demolab.com?user=pukarumi23&theme=radical&background=0d0d0d&border=ff007f&ring=00e5ff&fire=ff007f&currStreakLabel=00e5ff)](https://github.com/pukarumi23)
 
-</div>
-
----
-
-<div align="center">
-
-## 💫 Editor y Propietario
-
-<a href="https://github.com/pukarumi23">
-<img src="https://github.com/pukarumi23.png" width="200">
-</a>
-
-### 👑 CHASKI
-
-© MIKU NAKANO 
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=pukarumi23&bg_color=0d0d0d&color=00e5ff&line=ff007f&point=bf00ff&area=true&hide_border=false&border_color=ff007f)](https://github.com/pukarumi23)
 
 </div>
 
@@ -128,10 +154,19 @@ https://files.catbox.moe/b6z9ml.apk
 
 <div align="center">
 
-## 🔥 ¡La vibra más alegre y auténtica llega a tu WhatsApp! 🔥
+### 〔 DESARROLLADOR 〕
 
-![](https://img.shields.io/badge/Hecho_con-🧡-blue?style=for-the-badge)
+<img src="https://github.com/pukarumi23.png" width="110" style="border-radius:50%"/>
 
-### ⭐ No olvides dejar tu estrella al repositorio ⭐
+**龍༒ ＣＨＡＳＫＩ ༒龍**
+
+*Creador & Mantenedor*
+
+[![GITHUB](https://img.shields.io/badge/龍༒CHASKI༒龍-bf00ff?style=for-the-badge&labelColor=000000&logo=github&logoColor=white)](https://github.com/pukarumi23/MIKU_NAKANO_4)
 
 </div>
+
+---
+
+<div align="center">
+
